@@ -1,0 +1,531 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #203651ce;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+header button{
+    color:#7190b5;
+    border-radius: 13%;
+    width: 6%;
+    margin-top: .5%;
+    margin-right: 1%;
+    height: 80%;
+}
+
+
+video{
+    z-index: -1;
+    position:relative;
+    width: 100vw;
+    height: 110vh;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.liclasses{
+    margin-right: 5px;
+}
+
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+header img{
+    width: 5%;
+    padding-right: 2%;
+}
+
+h1{
+    font-size: 400%;
+    padding-left: 2%;
+    font-weight: 700;
+    margin-bottom: none;
+}
+
+main{
+    background-color: #203651ce;
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+main p{
+    padding: 0 15%;
+    font-size: 125%;
+    opacity: 0.9;
+    font-weight: 300;
+    margin-top: -1%;
+}
+
+main img{
+    width:3%;
+    padding-bottom: none;
+    border-radius: 100%;;
+    padding-right: .5%;
+}
+
+.why{
+    text-align:center;
+    color: white;
+}
+
+.why h2{
+    font-size: 190%;;
+}
+
+.why p{
+    font-size: 120%;
+    padding: 0 30%;
+}
+
+.blocks{
+    background-color: #B8C5D0;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 18%;
+    padding-top: 5%;
+    opacity: 0.8;
+}
+
+.bbi{
+    display: block;
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-style: italic;
+}
+
+footer{
+    background-color: #2b3848;
+}
+
+footer img{
+    width: 5%;
+}
+
+.leftblock, .rightblock{
+    border: 1px groove black;
+    background-color: #66768A;
+    width: 50%;
+    height: 120%;
+    margin-left: 27%;
+}
+
+.personalvisit p{
+    padding: 0 21%;
+}
+
+.gymvisit p{
+    padding: 0 21%;
+}
+
+.gymvisit{
+    text-align: center;
+}
+
+.personalvisit{
+    text-align: center;
+}
+
+.personalvisit h3{
+    margin-left: 4%;
+}
+
+.volunteer{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.volunteer h2{
+    font-size: 200%;
+}
+
+.volunteer p{
+    font-size: 125%;
+    font-weight: lighter;
+    padding: 0 30%;
+}
+
+.blocks button{
+    background-color: #B8C5D0;
+    height: 25%;
+    width: 25%;
+    font-weight: bold;
+}
+
+.volunteer button{
+    background-color: white;
+    width: 15%;
+    font-weight: bold;
+}
+
+.topfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2%;
+    border-top: 1px white solid;
+}
+
+.bottom span{
+    color: white;
+}
+
+.footerleft{
+    padding-left: 2%;
+}
+
+.footerleft img{
+    width: 60%;
+    margin-top: none;
+    padding-top:none;
+}
+
+.contribute p{
+    padding-top: none;
+    margin-top: none;
+}
+
+.footerheader{
+    color: #66768A;
+}
+
+.footerright p{
+    padding-right: 30%;
+    padding-left: 18%;
+}
+
+.footerright a{
+    padding-left: 18%;
+}
+
+@media (max-width: 1400px) {
+
+.blocks{
+padding-bottom: 22%;
+}
+
+}
+
+@media (max-width: 1180px) {
+
+    .personalvisit p, .gymvisit p{
+        padding: 0 12%;
+    }
+    
+    }
+
+
+@media (max-width: 1100px) {
+
+    .blocks{
+        padding-bottom: 30%;
+    }
+    
+    .footerleft{
+        padding-left: 2%;
+    }
+
+    header button{
+        margin-right: 3%;
+        width: 10%;
+    }
+    }
+
+    @media (max-width: 998px) {
+
+        .blocks{
+            padding-bottom: 28%;
+        }
+        
+        .footerleft{
+            padding-left: 2%;
+        }
+
+        .blocks button{
+            padding-top: -15%;
+        }
+
+
+        video{
+            z-index: -1;
+            position:relative;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+        }
+        }
+
+        @media (max-width: 930px) {
+
+            .blocks{
+                padding-bottom: 32%;
+            }
+     
+            }
+
+            @media (max-width: 885px) {
+
+                .blocks{
+                    padding-bottom: 35%;
+                }
+         
+                }
+            
+                @media (max-width: 885px) {
+
+                    .blocks{
+                        display: flex;
+                        flex-direction: column;
+                        padding-bottom: -40%;
+                        margin-bottom: 0;
+                        height: 450px;
+                   }
+
+                   video{
+                    z-index: -1;
+                    position:relative;
+                    width: 100vw;
+                    height: 100vh;
+                    position: fixed;
+                    overflow: hidden;
+                    top: 0;
+                    left: 0;
+                    object-fit: cover;
+                }
+        
+                   .leftblock, .rightblock{
+                    display: none;
+                   }
+
+                   .volunteer{
+                    margin-top: none
+                   }
+
+                   header img{
+                    padding-right: 10%;
+                    width: 20%;
+                   }
+
+                   .gymvisit button{
+                    margin-bottom: 1%;
+                   }
+
+                   h2{
+                    margin-top:1%;
+                   }
+
+                   .volunteer h2{
+                    padding-top: 5%;
+                   }
+                    }
+
+                    @media (max-width: 812px) {
+                        .volunteer p{
+                            padding: 0 15%;
+                        }
+
+                        .why p{
+                            padding: 0 15%;
+                        }
+
+                        video{
+                            z-index: -1;
+                            position:relative;
+                            width: 100vw;
+                            height: 100vh;
+                            position: fixed;
+                            overflow: hidden;
+                            top: 0;
+                            left: 0;
+                            object-fit: cover;
+
+                    }
+
+                    @media (max-width: 650px) {
+                        header button{
+                            width: 15%;
+                        } 
+
+                        .volunteer button{
+                            width: 22%;
+                        }
+
+                        main{
+                            margin-left: -2%;
+                        }
+
+                        header{
+                            margin-left: -2%;
+                        }
+
+                        footer{
+                            margin-left: -2%;
+                        }
+
+                        .blocks{
+                            margin-left: -2%;
+                        }
+                    }
+
+                    @media (max-width: 513px) {
+                        body{
+                            width: 120%;
+                        }
+
+                        main{
+                            margin-left: -2%;
+                        }
+
+                        header{
+                            margin-left: -2%;
+                        }
+
+                        video{
+                            z-index: -1;
+                            position:relative;
+                            width: 140vw;
+                            height: 120vh;
+                            position: fixed;
+                            overflow: hidden;
+                            top: 0;
+                            left: 0;
+                            object-fit: cover;
+                    }
+
+                    .volunteer h2{
+                        font-size: 180%;
+                    }
+
+                    .blocks{
+                        width: 100%;
+                    }
+
+                    .gymvisit button{
+                        margin-bottom: 4%;
+                    }
+
+                }
+
+                @media (max-width: 434px){
+                    .footerright span{
+                        font-size: 90%;
+                    }
+
+                    header button{
+                        margin-left: -2%;
+                        margin-right: 5%;
+                    }
+                }
+
+                @media (max-width: 420px){
+
+                    .blocks{
+                        width: 105%;
+                    }
+
+                    main{
+                        width: 105%;
+                    }
+
+                    header{
+                        width: 105%;
+                    }
+                }
+              
+
+                @media (max-width: 398px){
+                    main{
+                        width: 101%;
+                    }
+
+                    header{
+                        width: 100%;
+                    }
+
+                    footer{
+                        width: 105%;
+                        margin-left: -2%;
+                    }
+
+                    .blocks{
+                        width: 105%;
+                        margin-left: -2%;
+                        padding-top: 3%;
+                    }
+
+                    h1{
+                        font-size: 300%;
+                    }
+
+                    .footerright span{
+                        font-size: 80%;
+                    }
+                }
+
+                @media (max-width: 353px){
+                    .rightblock button{
+                        margin-bottom: 5%;
+                    }
+                }
+
+                @media (max-width: 346px){
+                    header button{
+                        width: 17%;
+                    } 
+
+                    .blocks{
+                        padding-top: 1%;
+                        padding-bottom: 5%;
+                    }
+
+                    .blocks p{
+                        font-size: 90%;
+                    }
+
+                    .volunteer button{
+                        width: 24%;
+                    }
+                }
+
+            }
